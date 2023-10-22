@@ -1,0 +1,6 @@
+<div class="breadcrumbs">
+    <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+    {% if page.title %}
+        &raquo; <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+    {% endif %}
+</div>
