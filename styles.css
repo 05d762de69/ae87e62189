@@ -51,3 +51,8 @@ p {
 .breadcrumbs a:hover {
     text-decoration: underline;
 }
+
+.post-excerpt {
+    font-style: italic;
+    margin-bottom: 20px;
+}
