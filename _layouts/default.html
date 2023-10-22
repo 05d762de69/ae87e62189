@@ -14,8 +14,10 @@
 {% else %}
     <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
 {% endif %}
-
+{% if page.url == "/" or page.url == "/index.html" %}
+    <p>{{ site.description }}</p>
 {% endif %}
+
 
     </header>
     <main>
