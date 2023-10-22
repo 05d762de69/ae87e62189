@@ -11,6 +11,11 @@
     <header>
         {% if page.url == "/" or page.url == "/index.html" %}
     <h1>{{ site.title }}</h1>
+        
+{% if page.layout == "post" %}
+    {% include breadcrumbs.html %}
+{% endif %}
+        
 {% else %}
     <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
 {% endif %}
@@ -18,7 +23,6 @@
     <p>{{ site.description }}</p>
 {% endif %}
 
-{% include breadcrumbs.html %}
     </header>
     <main>
         {{ content }}
