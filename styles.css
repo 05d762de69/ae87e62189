@@ -9,13 +9,14 @@ body {
 }
 
 a {
-    color: #0077cc;
-    text-decoration: none;
+    color: inherit; /* Makes the link color same as the surrounding text */
+    text-decoration: underline; /* Adds an underline to the link */
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none; /* Removes the underline when hovering over the link */
 }
+
 
 h1, h2, h3 {
     margin-top: 0;
