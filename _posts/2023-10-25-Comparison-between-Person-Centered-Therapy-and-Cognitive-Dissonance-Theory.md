@@ -1,10 +1,13 @@
 ---
+
 layout: post
 date: 2023-10-25
 title: Comparison Between Person-Centered Therapy and Cognitive Dissonance Theory
+
 ---
 
 Connecting two concepts that I recently read abot.
+
 <!--more-->
 
 # Theories
