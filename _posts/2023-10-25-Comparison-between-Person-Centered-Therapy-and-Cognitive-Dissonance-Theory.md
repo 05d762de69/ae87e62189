@@ -6,7 +6,7 @@ title: Comparison Between Person-Centered Therapy and Cognitive Dissonance Theor
 
 ---
 
-Connecting two concepts that I recently read abot.
+Connecting two concepts that I recently read about.
 
 <!--more-->
 
