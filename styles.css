@@ -57,9 +57,10 @@ p {
     margin-bottom: 20px;
 }
 
-main .post-excerpt {
+.post-content .post-excerpt {
     background-color: #f5f5f5;  /* Light gray background */
     padding: 10px;
     border-left: 3px solid #007BFF;  /* Blue left border */
 }
+
 
