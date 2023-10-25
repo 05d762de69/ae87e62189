@@ -4,4 +4,8 @@ layout: default
 
 <h1>{{ page.title | default: "Blog Post" }}</h1>
 <p>{{ page.date | date: "%B %d, %Y" }}</p>
+<div class="post-preview">
+    {{ page.excerpt }}
+</div>
+
 {{ content }}
