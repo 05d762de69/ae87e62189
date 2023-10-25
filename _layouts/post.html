@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<h1>{{ page.title | default: "Blog Post" }}</h1>
-<p>{{ page.date | date: "%B %d, %Y" }}</p>
-
-{{ content }}
+<main class="post-content">
+    <h1>{{ page.title | default: "Blog Post" }}</h1>
+    <p>{{ page.date | date: "%B %d, %Y" }}</p>
+    {{ content }}
+</main>
