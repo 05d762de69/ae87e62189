@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     color: #333;
     margin: 0 auto;
-    max-width: 1200px; /* Increased max-width for better layout on wider screens */
+    max-width: 800px;
     padding: 20px;
     background-color: #fff;
 }
@@ -62,34 +62,17 @@ p {
     border-left: 15px solid #007BFF;
 }
 
-.posts-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-around; /* Changed to space-around for better alignment */
+.posts-list {
+    margin-top: 20px;
 }
 
-.post-tile {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    padding: 20px;
-    width: 30%; /* Fixed width for each tile */
-    box-sizing: border-box;
+.post-entry {
+    padding-bottom: 20px;
 }
 
-.post-tile h2 {
-    font-size: 1.5em;
-    margin: 0 0 10px;
-}
-
-.post-tile p {
-    color: #777;
-    font-size: 0.9em;
-    margin: 0 0 10px;
-}
-
-.post-tile .post-excerpt {
-    font-style: italic;
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
 }
