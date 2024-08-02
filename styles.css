@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     color: #333;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1200px; /* Increased max-width for better layout on wider screens */
     padding: 20px;
     background-color: #fff;
 }
@@ -66,7 +66,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
+    justify-content: space-around; /* Changed to space-around for better alignment */
 }
 
 .post-tile {
@@ -75,8 +75,7 @@ p {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     padding: 20px;
-    max-width: 300px;
-    flex: 1 1 calc(33.333% - 40px);
+    width: 30%; /* Fixed width for each tile */
     box-sizing: border-box;
 }
 
